@@ -1,6 +1,8 @@
 const express=require("express"); 
  
-const API_KEY="sk-test-123456789"; 
+require("dotenv").config(); 
+
+const API_KEY=process.env.API_KEY; 
  
 const app=express(); 
  
