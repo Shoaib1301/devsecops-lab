@@ -1,7 +1,6 @@
 const express=require("express"); 
- 
 require("dotenv").config(); 
-
+ 
 const API_KEY=process.env.API_KEY; 
  
 const app=express(); 
